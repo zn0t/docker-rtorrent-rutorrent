@@ -2,7 +2,7 @@ name: rtorrent-rutorrent
 
 services:
   rtorrent-rutorrent:
-    image: ${RTORRENT_RUTORRENT_IMAGE:-crazymax/rtorrent-rutorrent}
+    image: ${RTORRENT_RUTORRENT_IMAGE:-zn0t/rtorrent-rutorrent}
     container_name: ${RTORRENT_RUTORRENT_CONTAINER:-rtorrent-rutorrent}
     networks:
       - rtorrent-rutorrent

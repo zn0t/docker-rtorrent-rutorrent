@@ -4,7 +4,7 @@
 #WAN_IP=${WAN_IP:-10.0.0.1}
 #WAN_IP_CMD=${WAN_IP_CMD:-"dig +short myip.opendns.com @resolver1.opendns.com"}
 
-TZ=${TZ:-UTC}
+TZ=${TZ:-Europe/Berlin}
 MEMORY_LIMIT=${MEMORY_LIMIT:-256M}
 UPLOAD_MAX_SIZE=${UPLOAD_MAX_SIZE:-16M}
 CLEAR_ENV=${CLEAR_ENV:-yes}

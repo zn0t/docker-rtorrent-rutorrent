@@ -19,7 +19,7 @@ ARG ALPINE_VERSION=3.19
 ARG ALPINE_S6_VERSION=${ALPINE_VERSION}-2.2.0.3
 
 FROM --platform=${BUILDPLATFORM} alpine:${ALPINE_VERSION} AS src
-RUN apk --update --no-cache add curl git tar tree sed xz
+RUN apk --update --no-cache add curl git tar tree sed xz nano
 WORKDIR /src
 
 FROM src AS src-libsig
